@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <extension
-
 	type="module"
 	version="2.5.5"
 	method="upgrade"
-	client="administrator">	
-
+	client="site">	
     <name>Latest Extensions</name>
 
     <creationDate>Junio 2018</creationDate>
@@ -21,13 +19,13 @@
 
     <license>GNU GPL</license>
 
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 
 	<description>Displays the most recently installed extensions.</description>
 
 	<files>
 
-		<filename module="mod_latestextensions">mod_latestextensions.php</filename>
+		<filename module="mod_latestextensionsfront">mod_latestextensionsfront.php</filename>
 
 		<filename>helper.php</filename>
 
@@ -43,7 +41,7 @@
 
 		<fieldset name="basic">
 
-			<field name="count" type="text" default="5" label="Count" description="The number of items to display (default is 5)" />		
+			<field name="count" type="text" default="3" label="Count" description="The number of items to display (default is 5)" />		
 
    		</fieldset>
 

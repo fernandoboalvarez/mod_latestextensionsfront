@@ -1,7 +1,7 @@
 <?php
 defined('_JEXEC') or die;
 
-abstract class mod_latestextensionsHelper
+abstract class mod_latestextensionsfrontHelper
 {
 	public static function getList(&$params)
 	{
